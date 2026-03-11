@@ -1,1 +1,41 @@
 /* header.css */
+.header {
+  background-color: #ffffff;
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  border-radius: 15px;
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 28px;
+}
+.img {
+  width: 150px;
+  height: 48px;
+}
+.nav-center ul,
+.nav-right ul {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+.nav-center a,
+.nav-right a {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.nav-center a:hover,
+.nav-right a:hover {
+    color: #7c3aed;
+}
+.nav-right img{
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}
+.nav-right a:hover img {
+    opacity: 0.7;
+}

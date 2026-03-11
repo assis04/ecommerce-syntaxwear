@@ -1,34 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SyntaxWear - Ecommerce</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
 
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/variables.css">
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/layout.css">
-  
-</head>
-<body>
-  <head class="site-header">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
   </head>
-  <main>
-    <section class="hero-section">
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="#" title="SyntaxWear - Tênis e Sneakers Online">
+          <img
+            src="./images/logo/logo.svg"
+            alt="SyntaxWear - Tênis e Sneakers Online"
+          />
+        </a>
+      </h1>
 
-    </section>
-    <section class="categoris-section">
-      <!--Seção com categorias de tenis-->
+      <nav class="nav-center" aria-label="Categorias Principais">
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Outlet</a></li>
+        </ul>
+      </nav>
 
-    </section>
-    <section class="featured-products-section">
-      <!--Grid com produtos em destaque-->
-    </section>
-  </main>  
-  <footer class="site-footer">
+      <nav class="nav-right" aria-label="Opções do Usuário">
+        <ul>
+          <li>
+            <a href="#" aria-label="Nossas Lojas"> Nossas Lojas </a>
+          </li>
+          <li>
+            <a href="#" aria-label="sobre"> Sobre </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Minha Conta">
+              <img src="./images/icons/user.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Ajuda">
+              <img src="./images/icons/help.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Sacola de Compras">
+              <img src="./images/icons/bag.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section"></section>
+      <section class="categoris-section">
+        <!--Seção com categorias de tenis-->
+      </section>
+      <section class="featured-products-section">
+        <!--Grid com produtos em destaque-->
+      </section>
+    </main>
+    <footer class="site-footer">
       <!--Informações de contato e redes sociais-->
-
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

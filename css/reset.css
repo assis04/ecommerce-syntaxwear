@@ -1,4 +1,8 @@
+/* ========================================
+   ANDY BELL'S MODERN CSS RESET
+   ======================================== */
 
+/* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
 *::after {
