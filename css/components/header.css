@@ -11,10 +11,9 @@
   z-index: 999;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 28px;
+  padding: 12px 20px;
 }
 .img {
-  width: 150px;
   height: 48px;
 }
 .nav-center ul,
@@ -30,12 +29,12 @@
 }
 .nav-center a:hover,
 .nav-right a:hover {
-    color: #7c3aed;
+  color: #7c3aed;
 }
-.nav-right img{
-    max-width: 1.25rem;
-    max-height: 1.25rem;
+.nav-right img {
+  max-width: 1.25rem;
+  max-height: 1.25rem;
 }
 .nav-right a:hover img {
-    opacity: 0.7;
+  opacity: 0.7;
 }
